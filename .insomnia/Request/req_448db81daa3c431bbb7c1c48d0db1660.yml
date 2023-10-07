@@ -1,0 +1,34 @@
+_id: req_448db81daa3c431bbb7c1c48d0db1660
+type: Request
+parentId: fld_eb095ae74c4742f7875226e483bce978
+modified: 1692796432474
+created: 1692795312887
+url: "{{ _.idp_url }}/token"
+name: Get token
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_22a4be3c9efb435bb4aec56c7fb2f010
+      name: grant_type
+      value: client_credentials
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: "{{ _.client_id }}"
+  password: "{{ _.client_secret }}"
+metaSortKey: -1692795312887
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

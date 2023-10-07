@@ -1,0 +1,26 @@
+_id: req_a9fe621b89b5467b94dbab57c5d9fa94
+type: Request
+parentId: fld_279ce8d409b24497b0653cb58cd88ef0
+modified: 1692872127089
+created: 1692797097130
+url: "{{ _.api_url }}/handevices/{{ _.current_device
+  }}/measures?name=obis&start={{ _.start_of_today }}&end={{ _.now }}&limit=10"
+name: Measures today
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.bearer_token }}"
+  disabled: false
+  prefix: ""
+metaSortKey: -1692797102635
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_75be6a02bf284e0f9a126fbc50dca61b
+type: Request
+parentId: fld_4b96699a7ea544538a845ca6e71c1f56
+modified: 1692796700165
+created: 1692795956933
+url: "{{ _.api_url }}/handevices/{{ _.current_device }}"
+name: Get device
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.bearer_token }}"
+  disabled: false
+  prefix: ""
+metaSortKey: -1692795959964
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

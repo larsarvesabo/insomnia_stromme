@@ -1,0 +1,36 @@
+_id: req_240e5a66e4f64a1eaf3d92686cd29c22
+type: Request
+parentId: fld_346eb82b84c040c9aed69f9b4aec3f74
+modified: 1692797053486
+created: 1692796945918
+url: "{{ _.api_url }}/handevices/{{ _.current_device }}/config"
+name: Set config
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "ch_th_set": 4800,
+        "ph_th_set": 10000,
+        "ph_th_reset": 9000,
+        "cir_th_set": 60,
+        "cir_th_reset": null
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.bearer_token }}"
+  disabled: false
+  prefix: ""
+metaSortKey: -1692797027341
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

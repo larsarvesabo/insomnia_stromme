@@ -1,0 +1,25 @@
+_id: req_b68b9d37b6e74367a60629eb4dd9c170
+type: Request
+parentId: fld_4b96699a7ea544538a845ca6e71c1f56
+modified: 1692872533248
+created: 1692872526243
+url: "{{ _.api_url }}/handevices/{{ _.current_device }}/onboarding"
+name: Offboard HAN device
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.bearer_token }}"
+  disabled: false
+  prefix: ""
+metaSortKey: -1692872403814.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

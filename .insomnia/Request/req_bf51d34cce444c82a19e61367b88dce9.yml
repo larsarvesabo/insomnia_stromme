@@ -1,0 +1,32 @@
+_id: req_bf51d34cce444c82a19e61367b88dce9
+type: Request
+parentId: fld_4b96699a7ea544538a845ca6e71c1f56
+modified: 1692872451579
+created: 1692872444038
+url: "{{ _.api_url }}/handevices/{{ _.current_device }}/command"
+name: Command - Reboot
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "type": "reboot"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.bearer_token }}"
+  disabled: false
+  prefix: ""
+metaSortKey: -1692815637461
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

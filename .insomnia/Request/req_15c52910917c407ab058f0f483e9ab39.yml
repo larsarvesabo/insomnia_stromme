@@ -1,0 +1,27 @@
+_id: req_15c52910917c407ab058f0f483e9ab39
+type: Request
+parentId: fld_279ce8d409b24497b0653cb58cd88ef0
+modified: 1692872202265
+created: 1692872199126
+url: "{{ _.api_url }}/handevices/{{ _.current_device
+  }}/measures?name=hourly2&start={{ _.start_of_today }}&end={{ _.now
+  }}&limit=10"
+name: Measures hourly2
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.bearer_token }}"
+  disabled: false
+  prefix: ""
+metaSortKey: -1692797046164.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

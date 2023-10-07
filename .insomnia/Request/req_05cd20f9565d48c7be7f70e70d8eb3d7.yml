@@ -1,0 +1,25 @@
+_id: req_05cd20f9565d48c7be7f70e70d8eb3d7
+type: Request
+parentId: fld_4b96699a7ea544538a845ca6e71c1f56
+modified: 1692872240539
+created: 1692796747530
+url: "{{ _.api_url }}/handevices/RygX3luy"
+name: Get device (set current_device)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.bearer_token }}"
+  disabled: false
+  prefix: ""
+metaSortKey: -1692795798194.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

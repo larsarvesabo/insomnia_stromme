@@ -1,0 +1,25 @@
+_id: req_a97c7aae4aed4ed982ea5b8d92381975
+type: Request
+parentId: fld_f153ca0fd2ff4d0c9cbec0f0afe68831
+modified: 1692872353707
+created: 1692872332306
+url: "{{ _.api_url }}/handevices/{{ _.current_device }}/measures?name=measure_count"
+name: Measures debug count
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.bearer_token }}"
+  disabled: false
+  prefix: ""
+metaSortKey: -1692872342106
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

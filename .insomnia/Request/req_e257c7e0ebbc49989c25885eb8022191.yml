@@ -1,0 +1,25 @@
+_id: req_e257c7e0ebbc49989c25885eb8022191
+type: Request
+parentId: fld_4b96699a7ea544538a845ca6e71c1f56
+modified: 1692796859156
+created: 1692796856656
+url: "{{ _.api_url }}/handevices/{{ _.current_device }}"
+name: Delete device
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.bearer_token }}"
+  disabled: false
+  prefix: ""
+metaSortKey: -1692795879079.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

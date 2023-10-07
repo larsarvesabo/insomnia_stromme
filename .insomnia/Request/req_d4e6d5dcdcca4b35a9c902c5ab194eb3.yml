@@ -1,0 +1,25 @@
+_id: req_d4e6d5dcdcca4b35a9c902c5ab194eb3
+type: Request
+parentId: fld_4b96699a7ea544538a845ca6e71c1f56
+modified: 1692872520334
+created: 1692872491899
+url: "{{ _.api_url }}/handevices/{{ _.current_device }}/onboarding"
+name: Onboard HAN device
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.bearer_token }}"
+  disabled: false
+  prefix: ""
+metaSortKey: -1692872423218.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

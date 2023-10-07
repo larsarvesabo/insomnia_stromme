@@ -1,0 +1,25 @@
+_id: req_d30c9fbf4a9643a6a1ebeb8efd1c0d4a
+type: Request
+parentId: fld_4b96699a7ea544538a845ca6e71c1f56
+modified: 1692796906558
+created: 1692796898901
+url: "{{ _.api_url }}/handevices"
+name: Create device
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.bearer_token }}"
+  disabled: false
+  prefix: ""
+metaSortKey: -1692795919521.6875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

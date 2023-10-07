@@ -1,0 +1,26 @@
+_id: env_bdc85191caa616c106a898ef651e05982f2f8e95
+type: Environment
+parentId: wrk_db408dc624094110a23516960c1152e9
+modified: 1692873571374
+created: 1692794274790
+name: Base Environment
+data:
+  start_of_today: "{% now 'custom', 'yyyy-MM-dd' %}"
+  now: "{% now 'iso-8601', '' %}"
+  current_device: "{% response 'body', 'req_05cd20f9565d48c7be7f70e70d8eb3d7',
+    'b64::JC5kZXZpY2VJZA==::46b', 'no-history', 60 %}"
+  bearer_token: "{% response 'body', 'req_448db81daa3c431bbb7c1c48d0db1660',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'when-expired', 1800 %}"
+  idp_url: https://idp.stromme.io
+  api_url: https://api.stromme.io
+dataPropertyOrder:
+  "&":
+    - start_of_today
+    - now
+    - current_device
+    - bearer_token
+    - idp_url
+    - api_url
+color: null
+isPrivate: false
+metaSortKey: 1692794274791

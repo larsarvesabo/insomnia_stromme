@@ -1,0 +1,32 @@
+_id: req_edb0fa3ec43344bfb4cabf43b5dd1a57
+type: Request
+parentId: fld_4b96699a7ea544538a845ca6e71c1f56
+modified: 1692872419862
+created: 1692872398932
+url: "{{ _.api_url }}/handevices/{{ _.current_device }}/command"
+name: Command - Go live
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "type": "go-live"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.bearer_token }}"
+  disabled: false
+  prefix: ""
+metaSortKey: -1692834172287
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

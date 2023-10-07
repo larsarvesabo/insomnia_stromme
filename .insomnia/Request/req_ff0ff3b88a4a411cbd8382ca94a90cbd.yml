@@ -1,0 +1,33 @@
+_id: req_ff0ff3b88a4a411cbd8382ca94a90cbd
+type: Request
+parentId: fld_4b96699a7ea544538a845ca6e71c1f56
+modified: 1692872624754
+created: 1692872610419
+url: "{{ _.api_url }}/handevices/{{ _.current_device }}/onboarding"
+name: Onboard 4G HAN device
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "type": "eva4g",
+        "onboardKey": "{SerialNumber (IMEI during tesing phase)}"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.bearer_token }}"
+  disabled: false
+  prefix: ""
+metaSortKey: -1692872413516.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
